@@ -1,0 +1,37 @@
+
+body{
+    margin: 0;
+}
+
+
+* {
+    outline: 1 px solid red;
+}
+
+.main {
+    margin-left: 160px; 
+    padding: 0px 10px;
+}
+
+.sidenav {
+    height: 100%; 
+    width: 117px; 
+    position: fixed; 
+    top: 0; 
+    left: 0;
+    background-color: DodgerBlue; 
+    padding-top: 20px;
+    i {
+        padding: 6px 8px 6px 16px;
+        text-decoration: none;
+        font-size: 30px;
+        color: white;
+        display: block;
+        margin: 25%;
+    }
+    .fa-circle {
+        color: #AED6F1;
+        font-size: 80px;
+        margin: 10%;
+    }
+}
